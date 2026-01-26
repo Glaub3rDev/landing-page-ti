@@ -1,0 +1,32 @@
+**Paleta de cores**
+ AZUL (primária – títulos, links, destaques)
+**Normal:**  
+`#2563EB`
+**Hover / Active:**  
+`#1D4ED8`
+
+**VERDE (CTA – botões principais)**
+**Normal:**  
+`#22C55E`
+**Hover / Active:**  
+`#16A34A`
+
+**CINZA ESCURO (texto principal)**
+**Normal:**  
+`#1F2933`
+**Hover (raro, links secundários):**  
+`#111827`
+
+
+**CINZA CLARO (backgrounds)**
+**Normal:**  
+`#F3F4F6`
+**Hover / Section Highlight (opcional):**  
+`#E5E7EB`
+
+
+**BRANCO (background principal)**
+**Normal:**  
+`#FFFFFF`
+**Hover (quase nunca usado):**  
+`#F9FAFB`

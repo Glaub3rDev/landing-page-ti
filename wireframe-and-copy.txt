@@ -1,0 +1,163 @@
+## SEÇÃO 1 — HERO
+
+Estrutura (wireframe textual):  
+Header com logo à esquerda e botão de CTA à direita.  
+Abaixo, conteúdo principal em duas colunas:  
+Texto à esquerda e ilustração à direita.
+
+Copy:
+
+Título principal (H1):  
+Organize a tecnologia da sua empresa e foque no que realmente importa
+
+Texto de apoio (parágrafo):  
+Cuidamos da sua TI de forma simples, clara e eficiente, para que sua empresa funcione sem interrupções e sem dor de cabeça.
+
+Botão (CTA):  
+Solicitar diagnóstico gratuito
+
+Observação de ilustração:  
+Ilustração mostrando uma pessoa ou equipe sobrecarregada, com muitos alertas, telas e elementos de confusão tecnológica.
+
+---
+
+## SEÇÃO 2 — O PROBLEMA
+
+Estrutura (wireframe textual):  
+Título centralizado no topo.  
+Abaixo, duas colunas: lista de problemas à esquerda e ilustração à direita.
+
+Copy:
+
+Título (H2):  
+Sua TI está te ajudando ou atrapalhando?
+
+Lista de problemas:  
+– Sistemas desorganizados  
+– Falta de padrão nos processos  
+– Suporte lento ou confuso  
+– Problemas que se repetem todos os dias
+
+Observação de ilustração:  
+Cena de caos digital, com notificações de erro, relógio simbolizando atraso e múltiplas telas abertas.
+
+---
+
+## SEÇÃO 3 — A SOLUÇÃO
+
+Estrutura (wireframe textual):  
+Duas colunas.  
+Ilustração à esquerda (antes e depois).  
+Texto à direita.
+
+Copy:
+
+Título (H2):  
+Nós simplificamos a TI da sua empresa
+
+Texto explicativo (parágrafo):  
+Organizamos sistemas, processos e suporte para que sua empresa tenha mais controle, previsibilidade e menos problemas no dia a dia.
+
+Destaques da solução (lista curta):  
+– Organização clara  
+– Padronização dos processos  
+– Suporte confiável
+
+Observação de ilustração:  
+Comparação visual de antes (bagunça) e depois (ambiente organizado e tranquilo).
+
+---
+
+## SEÇÃO 4 — COMO FUNCIONA
+
+Estrutura (wireframe textual):  
+Título no topo.  
+Abaixo, três blocos ou colunas representando etapas do processo.
+
+Copy:
+
+Título (H2):  
+Como funciona na prática
+
+Etapa 1:  
+Diagnóstico completo  
+Analisamos a estrutura atual da sua TI e identificamos pontos de melhoria.
+
+Etapa 2:  
+Organização e melhorias  
+Padronizamos sistemas, processos e fluxos para evitar problemas futuros.
+
+Etapa 3:  
+Suporte contínuo  
+Oferecemos acompanhamento e suporte para manter tudo funcionando corretamente.
+
+Observação de ilustração:  
+Linha do tempo ou personagem avançando por etapas, representando progresso.
+
+---
+
+## SEÇÃO 5 — PARA QUEM É
+
+Estrutura (wireframe textual):  
+Título no topo.  
+Lista de características abaixo, em coluna única ou duas colunas.
+
+Copy:
+
+Título (H2):  
+Ideal para empresas que…
+
+Lista:  
+– Não possuem TI interna estruturada  
+– Estão em fase de crescimento  
+– Querem menos problemas técnicos  
+– Precisam de mais organização e controle
+
+Observação de ilustração:  
+Pequenas equipes ou empresas em ambiente calmo e organizado.
+
+---
+
+## SEÇÃO 6 — PROVA SOCIAL
+
+Estrutura (wireframe textual):  
+Título no topo.  
+Abaixo, dois ou três blocos de depoimento.
+
+Copy:
+
+Título (H2):  
+Empresas como a sua já simplificaram a TI
+
+Depoimento 1:  
+“Hoje temos mais controle e muito menos dor de cabeça com tecnologia.”  
+— Empresa de logística
+
+Depoimento 2:  
+“O suporte ficou claro, organizado e confiável.”  
+— Escritório contábil
+
+Observação de ilustração:  
+Pessoas satisfeitas, clima de confiança e estabilidade.
+
+---
+
+## SEÇÃO 7 — CTA FINAL
+
+Estrutura (wireframe textual):  
+Bloco centralizado com texto e botão.  
+Ilustração de apoio ao lado ou abaixo.
+
+Copy:
+
+Título (H2):  
+Pronto para organizar a TI da sua empresa?
+
+Texto de apoio (parágrafo):  
+Comece com um diagnóstico gratuito e sem compromisso.
+
+Botão (CTA):  
+Quero organizar minha TI
+
+Observação de ilustração:  
+Pessoa confiante, ambiente organizado e sensação de solução alcançada
