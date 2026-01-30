@@ -45,7 +45,7 @@ body, html {
     font-family: 'Inter', sans-serif;
  }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family: 'Poppins', sans-serif;
     font-size: 2rem;
     line-height: 1.2;
@@ -141,4 +141,29 @@ header > button {
 header > button:hover {
     background-color: var(--color-cta-hover);
     color: var(--color-text-hover);
+}
+
+/* === Section-01 === */
+.section-01 {
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    text-align: center;
+}
+
+ul {
+    list-style: decimal-leading-zero;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+    background-color: var(--color-border);
+    color: var(--color-text-main);
+    border-radius: 20px;
+    margin: 10px;
+    list-style: decimal;
 }
