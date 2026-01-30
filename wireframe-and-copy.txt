@@ -1,6 +1,6 @@
 ## SEÇÃO 1 — HERO
 
-Estrutura (wireframe textual):  
+Estrutura (wireframe textual):           
 Header com logo à esquerda e botão de CTA à direita.  
 Abaixo, conteúdo principal em duas colunas:  
 Texto à esquerda e ilustração à direita.
