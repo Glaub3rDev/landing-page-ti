@@ -283,3 +283,83 @@ footer {
 .icons-footer > img {
    height: 30px;
 }
+
+/* === Tablet layout === */
+
+@media (min-width: 768px) {
+    header {
+        padding: 35px;
+    }
+
+    header > h1 {
+    font-size: 2.5em;
+    }
+
+    header > p {
+        font-size: 1.2em;
+    }
+
+    header > button {
+    width: 40%;
+    height: 30%;
+    font-size: 1em;
+    }
+
+    .section-01 {
+        padding: 35px;
+    }
+
+    .section-01 > h2 {
+        font-size: 1.8em;
+    }
+
+    ul > li {
+        font-size: 1.5em;
+    }
+
+    .section-02 {
+        padding: 35px;
+    }
+
+     .section-02 > h2 {
+        font-size: 2.5em;
+     }
+
+      .section-02 > p {
+        font-size: 1.2em;
+      }
+
+    .section03 {
+        padding: 35px;
+    }
+
+    .section03 > h2 {
+        font-size: 2.5em;
+    }
+
+    .section-03-block-container {
+        align-items: center;
+        justify-items: center;
+    }
+
+    .block-items {
+        width: 60%;
+    }
+
+    .section-04 {
+        padding: 35px;
+    }
+
+    .section-04 > h2 {
+        font-size: 2.5em; 
+    }
+
+    .section-04 > p {
+        font-size: 1.4em;
+    }
+
+    .section-04 > button {
+        width: 60%;
+        font-size: 1.2em;
+    }
+}
