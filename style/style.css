@@ -192,6 +192,11 @@ header > button:hover {
     flex-direction: column;
     text-align: center;
     gap: 40px;
+    padding: 25px;
+}
+
+.section-02-list {
+    list-style: none;
 }
 
 /* === Section-03 === */
@@ -200,8 +205,81 @@ header > button:hover {
     display: flex;
     flex-direction: column;
     gap: 40px;
+    padding: 25px;
+    text-align: center;
 }
 
-.section-03-block {
-    
+.section-03-block-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 20px;
+}
+
+.block-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 14px;
+    border: 1px solid var(--color-primary);
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.block-items > svg {
+    background-color: #2FBF71;
+    height: 50px;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.block-items > h4 {
+    font-size: 1.5em;
+}
+
+/* === Section-04 === */
+
+.section-04 {
+    padding: 25px;
+    gap: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.section-04 > button {
+    width: 55%;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    color: var(--color-text-main);
+    background-color: var(--color-cta);
+    transition: all 0.3s;
+}
+
+.section-04 > img:hover {
+    background-color: var(--color-cta-hover);
+    color: var(--color-text-hover);
+}
+
+/* === Footer === */
+
+footer {
+    padding: 25px;
+    background-color: #163A5F;
+    color: white;
+    margin-top: 50px;
+}
+
+.icons-footer {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: start;
+}
+
+.icons-footer > img {
+   height: 30px;
 }

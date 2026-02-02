@@ -161,3 +161,11 @@ Quero organizar minha TI
 
 Observação de ilustração:  
 Pessoa confiante, ambiente organizado e sensação de solução alcançada
+
+
+-footer
+--------------------------------
+|  Logo   |  Links   | Contato |
+--------------------------------
+| © 2026 NexaTI. Todos os direitos reservados |
+--------------------------------
