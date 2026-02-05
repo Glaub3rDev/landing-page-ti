@@ -293,6 +293,7 @@ footer {
 /* === Tablet layout === */
 
 @media (min-width: 768px) {
+    /* === Header Tablet layout === */
     header {
         padding: 35px;
     }
@@ -327,6 +328,7 @@ footer {
         padding: 35px;
     }
 
+    /* === Sections Tablet layout === */
     .section-02>h2 {
         font-size: 2.5em;
     }
@@ -378,36 +380,46 @@ footer {
 }
 
 /* === Desktop layout === */
-
 @media (min-width: 1024px) {
+
+    /* === Navbar Desktop layout === */
+    nav {
+        padding: 20px 50px 10px;
+    }
+
     .nav-links-mobile {
         display: none;
     }
 
     .nav-links-desktop {
         display: flex;
-        gap: 40px;
+        gap: 25px;
         padding: 30px;
     }
 
-    .nav-links-desktop>a {
+    .nav-links-desktop> a {
+        border: 1px solid var(--color-cta);
+        border-radius: 20px;
+        padding: 13px 20px 13px;
         text-decoration: none;
         color: var(--color-text-main);
         font-weight: 500;
         transition: all 0.3s;
     }
 
-    .nav-links-desktop>a:hover {
-        color: var(--color-text-hover);
-        text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.296);
+    .nav-links-desktop> a:hover {
+        background-color: #2FBF71;
     }
 
+/* === Header Desktop layout === */
     header {
+        padding: 60px;
         flex-direction: row;
-    }
+        gap: 17em;
+    } 
 
-    header>img {
-        height: 700px;
+    header > img {
+        height: 50em;
     }
 
     .header-left-container {
@@ -418,18 +430,45 @@ footer {
         text-align: left;
         gap: 20px;
         height: 200px;
-        ;
     }
 
-    .section-02 {
+    .header-left-container > h1 {
+        font-size: 4em;
+    }
+
+    .header-left-container > p {
+        font-size: 1.6em;
+    }
+
+     /* ===  Sections Desktop layout === */
+     /*section01*/
+    .section-01 {
+        display: flex;
         flex-direction: row;
+        padding: 60px;
+    }
+
+    .list-container {
+       display: flex;
+       flex-direction: ;
+        padding: 20px;
+    }
+
+    .section-01 > img {
+        height: 50em;
+    }
+
+    /*section02*/
+    .section-02 {
+        padding: 60px 10px 10px;
+        flex-direction: row;
+        gap: 30em;
         justify-content: center;
         align-items: center;
-        gap: 20px;
     }
 
-    .section-02>img {
-        height: 600px;
+    .section-02> img {
+        height: 60em;
     }
 
     .section-02-left-container {
@@ -440,18 +479,20 @@ footer {
         text-align: left;
         gap: 20px;
         height: 200px;
-        ;
+        
     }
 
     .section-02-left-container>h2 {
-        font-size: 2.8em;
+        font-size: 4em;
     }
 
     .section-02-left-container>p {
-        font-size: 1.4em;
+        font-size: 1.6em;
     }
 
-     .section-04 {
-        display: flex;
-        text-align: center;
-     }
+    .section-04 {
+    display: flex;
+    text-align: center;
+    }
+
+    /*Ajustas a lista pegando a classe errada que está na parte mobile e tablet e mudando para a nova classe "ection-01-container"*/
