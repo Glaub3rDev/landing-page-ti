@@ -41,8 +41,6 @@
 
 body,
 html {
-    width: 100vw;
-    height: 100vh;
     font-family: 'Inter', sans-serif;
 }
 
@@ -62,17 +60,12 @@ p {
 }
 
 * {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--color-bg-soft);
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-}
-
-body,
-html {
-    width: 100vw;
-    height: 100vh;
-    font-family: 'Inter', sans-serif;
-    background-color: var(--color-bg-soft);
 }
 
 /* === Navbar === */
@@ -166,6 +159,7 @@ header {
 
 .list-container {
     padding: 60px;
+    margin: 0px;
     background-color: var(--color-text-hover);
     color: white;
     border: 1px solid var(--color-cta);
@@ -189,7 +183,7 @@ header {
 
 /* === Section-03 === */
 
-.section03 {
+.section-03 {
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -319,11 +313,11 @@ footer {
         font-size: 1.2em;
     }
 
-    .section03 {
+    .section-03 {
         padding: 35px;
     }
 
-    .section03>h2 {
+    .section-03>h2 {
         font-size: 2.5em;
     }
 
@@ -401,7 +395,8 @@ footer {
     } 
 
     header > img {
-        height: 50em;
+        max-height: ;
+        width: auto;
     }
 
     .header-left-container {
@@ -432,7 +427,7 @@ footer {
 
     .list-container {
        display: flex;
-       flex-direction: ;
+       flex-direction: column;
         padding: 20px;
     }
 
@@ -450,7 +445,8 @@ footer {
     }
 
     .section-02> img {
-        height: 60em;
+        max-height: 80vh;
+        width: auto;
     }
 
     .section-02-left-container {
