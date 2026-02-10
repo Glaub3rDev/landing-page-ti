@@ -356,7 +356,7 @@ footer {
 }
 
 /* === Desktop layout === */
-@media (min-width: 1024px) {
+@media (min-width: 1400px) {
 
     /* === Navbar Desktop layout === */
     nav {
@@ -390,13 +390,12 @@ footer {
 /* === Header Desktop layout === */
     header {
         padding: 60px;
-        flex-direction: row;
+        flex-direction: ;
         gap: 17em;
     } 
 
     header > img {
-        max-height: ;
-        width: auto;
+        height: 40em;
     }
 
     .header-left-container {
@@ -410,11 +409,11 @@ footer {
     }
 
     .header-left-container > h1 {
-        font-size: 4em;
+        font-size: 3em;
     }
 
     .header-left-container > p {
-        font-size: 1.6em;
+        font-size: 1.2em;
     }
 
      /* ===  Sections Desktop layout === */
@@ -473,4 +472,3 @@ footer {
     text-align: center;
     }
 
-    /*Ajustas a lista pegando a classe errada que está na parte mobile e tablet e mudando para a nova classe "ection-01-container"*/
