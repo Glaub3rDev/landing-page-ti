@@ -41,8 +41,6 @@
 
 body,
 html {
-    width: 100vw;
-    height: 100vh;
     font-family: 'Inter', sans-serif;
 }
 
@@ -62,17 +60,12 @@ p {
 }
 
 * {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--color-bg-soft);
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-}
-
-body,
-html {
-    width: 100vw;
-    height: 100vh;
-    font-family: 'Inter', sans-serif;
-    background-color: var(--color-bg-soft);
 }
 
 /* === Navbar === */
@@ -93,7 +86,7 @@ svg {
     display: none;
 }
 
-nav> img {
+nav > img {
     height: 40px;
 }
 
@@ -134,7 +127,15 @@ header {
     text-align: center;
 }
 
-.header-left-container>button {
+.header-left-container > h1, p {
+    padding-bottom: 30px;
+}
+
+.header-left-container > img {
+    height: 40em;
+}
+
+.header-left-container > button {
     width: 55%;
     padding: 15px;
     border-radius: 20px;
@@ -144,7 +145,7 @@ header {
     transition: all 0.3s;
 }
 
-.header-left-container>button:hover {
+.header-left-container > button:hover {
     background-color: var(--color-cta-hover);
     color: var(--color-text-hover);
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.371);
@@ -164,8 +165,13 @@ header {
     font-size: 1.9em;
 }
 
+.section-01-container > img {
+    height: 40em;
+}
+
 .list-container {
     padding: 60px;
+    margin: 0px;
     background-color: var(--color-text-hover);
     color: white;
     border: 1px solid var(--color-cta);
@@ -183,17 +189,25 @@ header {
     padding: 25px;
 }
 
+.section-02-left-container > h2, p {
+    padding-bottom: 20px;
+}
+
+.section-02 > img {
+    height: 22em;
+}
+
 .section-02-list {
     list-style: none;
 }
 
 /* === Section-03 === */
 
-.section03 {
+.section-03 {
     display: flex;
     flex-direction: column;
     gap: 40px;
-    padding: 25px;
+    padding: 40px;
     text-align: center;
 }
 
@@ -237,7 +251,7 @@ header {
     text-align: center;
 }
 
-.section-04>button {
+.section-04-left-container > button {
     width: 55%;
     padding: 15px;
     border-radius: 20px;
@@ -247,7 +261,21 @@ header {
     transition: all 0.3s;
 }
 
-.section-04>img:hover {
+.section-04-left-container > button:hover {
+    background-color: var(--color-cta-hover);
+    color: var(--color-text-hover);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.371);
+}
+
+.section-04-left-container > h2, p {
+   padding-bottom: 20px;
+} 
+
+.section-04-left-containe > img {
+    height: 40em;
+}
+
+.section-04 > button:hover {
     background-color: var(--color-cta-hover);
     color: var(--color-text-hover);
 }
@@ -319,11 +347,11 @@ footer {
         font-size: 1.2em;
     }
 
-    .section03 {
+    .section-03 {
         padding: 35px;
     }
 
-    .section03>h2 {
+    .section-03>h2 {
         font-size: 2.5em;
     }
 
@@ -354,7 +382,7 @@ footer {
         transition: all 0.3s;
     }
 
-    .section-04>button:hover {
+    .section-04-left-container > button:hover {
         cursor: pointer;
         background-color: var(--color-cta-hover);
         color: var(--color-text-hover);
@@ -396,7 +424,7 @@ footer {
 /* === Header Desktop layout === */
     header {
         padding: 60px;
-        flex-direction: row;
+        flex-direction: ;
         gap: 17em;
     } 
 
@@ -432,7 +460,7 @@ footer {
 
     .list-container {
        display: flex;
-       flex-direction: ;
+       flex-direction: column;
         padding: 20px;
     }
 
@@ -450,7 +478,8 @@ footer {
     }
 
     .section-02> img {
-        height: 60em;
+        max-height: 80vh;
+        width: auto;
     }
 
     .section-02-left-container {
