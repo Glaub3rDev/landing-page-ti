@@ -44,6 +44,10 @@ html {
     font-family: 'Inter', sans-serif;
 }
 
+body {
+    background-color: var(--color-bg-soft);
+}
+
 h1,
 h2,
 h3,
@@ -59,14 +63,6 @@ p {
     line-height: 1.6;
 }
 
-* {
-    width: 100vw;
-    height: 100vh;
-    background-color: var(--color-bg-soft);
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
 
 /* === Navbar === */
 nav {
