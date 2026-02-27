@@ -1,2 +1,2 @@
 # landing-page-ti
-Projeto em andamento.
+Leanging page com finalidade em oferecer um serviço de T.I
