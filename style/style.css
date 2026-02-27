@@ -39,13 +39,10 @@
     box-sizing: border-box;
 }
 
-body,
-html {
-    font-family: 'Inter', sans-serif;
-}
-
 body {
     background-color: var(--color-bg-soft);
+    overflow-x: hidden;
+    font-family: 'Inter', sans-serif;
 }
 
 h1,
@@ -62,6 +59,11 @@ p {
     font-size: 1rem;
     line-height: 1.6;
 }
+
+    .container {
+    max-width:1200px;
+    margin:auto;
+    }
 
 
 /* === Navbar === */
@@ -123,12 +125,14 @@ header {
     text-align: center;
 }
 
-.header-left-container > h1, p {
+.header-left-container > h1,
+.header-left-container > p {
     padding-bottom: 30px;
 }
 
 .header-left-container > img {
-    height: 40em;
+    max-width: 100%;
+    height: auto;
 }
 
 .header-left-container > button {
@@ -162,7 +166,8 @@ header {
 }
 
 .section-01-container > img {
-    height: 40em;
+    max-width: 100%;
+    height: auto;
 }
 
 .list-container {
@@ -185,12 +190,14 @@ header {
     padding: 25px;
 }
 
-.section-02-left-container > h2, p {
+.section-02-left-container > h2, 
+.section-02-left-container > p {
     padding-bottom: 20px;
 }
 
 .section-02 > img {
-    height: 22em;
+    max-width: 100%;
+    height: auto;
 }
 
 .section-02-list {
@@ -263,12 +270,14 @@ header {
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.371);
 }
 
-.section-04-left-container > h2, p {
+.section-04-left-container > h2,
+.section-04-left-container > p {
    padding-bottom: 20px;
 } 
 
-.section-04-left-containe > img {
-    height: 40em;
+.section-04-left-container > img {
+    max-width: 100%;
+    height: auto;
 }
 
 .section-04 > button:hover {
@@ -279,20 +288,23 @@ header {
 /* === Footer === */
 
 footer {
+    height: 90px;
     padding: 25px;
     background-color: #163A5F;
     color: white;
     margin-top: 50px;
 }
 
-.icons-footer {
+.footer-container {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
     gap: 30px;
     align-items: start;
 }
 
-.icons-footer>img {
+.footer-container>img {
     height: 30px;
 }
 
@@ -419,9 +431,10 @@ footer {
 
 /* === Header Desktop layout === */
     header {
-        padding: 60px;
-        flex-direction: ;
-        gap: 17em;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
     } 
 
     header > img {
@@ -451,7 +464,9 @@ footer {
     .section-01 {
         display: flex;
         flex-direction: row;
-        padding: 60px;
+        justify-content: center;
+        align-items: center;
+        padding: 35px;
     }
 
     .list-container {
@@ -461,15 +476,16 @@ footer {
     }
 
     .section-01 > img {
-        height: 50em;
+        max-height: 80vh;
+        width: auto;
     }
 
     /*section02*/
     .section-02 {
-        padding: 60px 10px 10px;
+        padding: 30px 35px;
         flex-direction: row;
-        gap: 30em;
         justify-content: center;
+        align-items: center;
         align-items: center;
     }
 
@@ -478,27 +494,28 @@ footer {
         width: auto;
     }
 
-    .section-02-left-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
-        text-align: left;
-        gap: 20px;
-        height: 200px;
-        
+    .section-02-left-container > img {
+        height: 40em;
     }
 
     .section-02-left-container>h2 {
-        font-size: 4em;
+        font-size: 2.5em;
     }
 
     .section-02-left-container>p {
-        font-size: 1.6em;
+        font-size: 1em;
     }
 
+    /*section04*/
     .section-04 {
+    padding-top: 62px;
     display: flex;
+    flex-direction: row;
     text-align: center;
     }
 
+    .section-04 > img {
+        height: 40em;
+    }
+
+}
