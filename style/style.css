@@ -171,7 +171,7 @@ header {
 }
 
 .list-container {
-    padding: 60px;
+    padding: 50px;
     margin: 0px;
     background-color: var(--color-text-hover);
     color: white;
